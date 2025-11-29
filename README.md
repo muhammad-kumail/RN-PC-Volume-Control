@@ -4,6 +4,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
+## Demo
+
+![SimulatorScreenRecording-iPhone16Pro-2025-11-29at22 23 33-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/72e1d6dc-f8df-4d7c-bfba-3f9b01f26821)
+
 ## Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
