@@ -7,15 +7,28 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
+    "build-apk": "cd android && ./gradlew clean && ./gradlew assemblerelease && cd app/build/outputs/apk/release && open .",
+    "android:clean": "cd android && ./gradlew clean && cd .. && react-native run-android",
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native/new-app-screen": "0.80.1",
+    "axios": "^1.11.0",
     "react": "19.1.0",
     "react-native": "0.80.1",
-    "@react-native/new-app-screen": "0.80.1"
+    "react-native-asset": "^2.1.1",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.27.2",
+    "react-native-modal": "^14.0.0-rc.1",
+    "react-native-reanimated": "^3.19.0",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-vector-icons": "^10.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-optional-chaining": "^7.27.1",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
     "@react-native-community/cli": "19.0.0",
